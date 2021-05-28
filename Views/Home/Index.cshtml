@@ -10,5 +10,16 @@
 <div class="text-center">
     <h1 class="display-4">Welcome!</h1>
     <h2>K8s Training Homework: Zhi-Wei.</h2>
+    <hr />
+    <h3>ConfigMap Environment Variables:</h3>
+    <ul>
+        <li>LAB_USER_NUMBER: @Environment.GetEnvironmentVariable("LAB_USER_NUMBER")</li>
+        <li>LAB_USER_NAME: @Environment.GetEnvironmentVariable("LAB_USER_NAME")</li>
+    </ul>
+    <h3>Secret Environment Variables:</h3>
+    <ul>
+        <li>DB_USERNAME: @Environment.GetEnvironmentVariable("DB_USERNAME")</li>
+        <li>DB_PASSWORD: @Environment.GetEnvironmentVariable("DB_PASSWORD")</li>
+    </ul>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
